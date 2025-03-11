@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f2f2f2; */
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 2px 3px 2px rgb(224, 224, 224);
+    padding: 0 30px;
+    position: sticky;
+}
+
+.header .logo{
+    padding-top: 20px;
+}
+
+.header .icon{
+    padding-top: 20px;
+}
+
+
+.content-container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    /* background-color: #EEEEEE; */
+}
+.sidebar{
+    width: 20%;
+    margin: auto;
+    height: 150vh;
+    border: 1px solid rgb(215, 213, 213);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+   gap: 20px;
+   padding-top: 10px;
+   color: rgb(110, 110, 110);
+   /* box-shadow: 3px 2px 3px 2px rgb(224, 224, 224); */
+}
+.sidebar svg{
+    padding-left: 30px;
+    color: #BB3529;
+}
+
+.dashboard {
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.divider{
+    width: 100%;
+    height: 1px;
+    background-color: #E3E3E3;
+    margin: 20px 0px;
+}
+
+.content{
+    width: 80%;
+    margin: auto;
+    height: 150vh;
+    padding-top: 10px;
+    /* border: 0.5px solid black; */
+    background-color: #EEEEEE;
+    /* color: rgb(110, 110, 110); */
+    padding-left: 30px;
+}
+
+.form-container {
+    width: 80%;
+    /* margin:  ; */
+    padding: 20px;
+    /* background-color: #ffffff; */
+    /* border-radius: 5px; */
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#groups{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+#project-group{
+    width: 50%;
+}
+#company-group{
+    width: 50%;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+#submit-date{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #BB3529;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

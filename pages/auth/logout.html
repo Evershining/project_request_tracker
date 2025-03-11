@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout Page</title>
+    <link rel="stylesheet" href="../../css/logout.css">
+</head>
+<body>
+    <div class="logout-page">
+        <div class="logout-container">
+            <h1>Logout</h1>
+            <p>Are you sure you want to log out?</p>
+            <div class="logout-actions">
+                <a href="login-page.html" class="btn logout-btn">Yes, Log Out</a>
+                <a href="javascript:void(0);" class="btn cancel-btn" id="cancelButton">Cancel</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('cancelButton').addEventListener('click', function() {
+      if (document.referrer) {
+        // Go back to the previous page
+        window.history.back();
+      } else {
+        // Redirect to a default page if no referrer
+        window.location.href = '/';
+      }
+    });
+      </script>
+</body>
+</html>

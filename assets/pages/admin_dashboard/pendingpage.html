@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pending Requests</title>
+  <link rel="stylesheet" href="../../css/pendingpage.css">
+  
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+        <img class="logo" src="../../assets/images/ccol-logo-small3.png" alt="" width="150px" height="40px">
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10ZM12 14.5c-5.01 0-9.09 3.36-9.09 7.5 0 .28.22.5.5.5h17.18c.28 0 .5-.22.5-.5 0-4.14-4.08-7.5-9.09-7.5Z" fill="#555555"></path></svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="32" viewBox="0 0 24 24" fill="none"><path stroke="#555555" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M17.44 14.62L20 12.06 17.44 9.5M9.76 12.06h10.17M11.76 20c-4.42 0-8-3-8-8s3.58-8 8-8"></path></svg>
+        </div>
+    </div>
+
+    <div class="content-container">
+        <div class="sidebar">
+           <div class="">
+            <a href="../../pages/admin_dashboard/admin-dashboard.html" class="dashboard"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#BB3529"><path d="M520-600v-240h320v240H520ZM120-440v-400h320v400H120Zm400 320v-400h320v400H520Zm-400 0v-240h320v240H120Zm80-400h160v-240H200v240Zm400 320h160v-240H600v240Zm0-480h160v-80H600v80ZM200-200h160v-80H200v80Zm160-320Zm240-160Zm0 240ZM360-280Z"/></svg>
+            <span>Dashboard</span></a>
+           </div> 
+
+           <div class="">
+            <a href="../../pages/admin_dashboard/pendingpage.html" class="dashboard"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#BB3529"><path d="M680-80q-83 0-141.5-58.5T480-280q0-83 58.5-141.5T680-480q83 0 141.5 58.5T880-280q0 83-58.5 141.5T680-80Zm67-105 28-28-75-75v-112h-40v128l87 87Zm-547 65q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h167q11-35 43-57.5t70-22.5q40 0 71.5 22.5T594-840h166q33 0 56.5 23.5T840-760v250q-18-13-38-22t-42-16v-212h-80v120H280v-120h-80v560h212q7 22 16 42t22 38H200Zm280-640q17 0 28.5-11.5T520-800q0-17-11.5-28.5T480-840q-17 0-28.5 11.5T440-800q0 17 11.5 28.5T480-760Z"/></svg>
+            <span>Pending</span></a>
+           </div> 
+
+           <div class="">
+            <a href="../../pages/admin_dashboard/inprogresspage.html" class="dashboard"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#BB3529"><path d="M200-200v-560 560Zm80-400h400v-80H280v80Zm0 160h190q20-24 43.5-44.5T565-520H280v80Zm0 160h122q2-21 7.5-41t13.5-39H280v80Zm-80 160q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v223q-19-8-39-13.5t-41-7.5v-202H200v560h202q2 21 7.5 41t13.5 39H200Zm520 80q-73 0-127.5-45.5T524-200h62q13 44 49.5 72t84.5 28q58 0 99-41t41-99q0-58-41-99t-99-41q-29 0-54 10.5T622-340h58v60H520v-160h60v57q27-26 63-41.5t77-15.5q83 0 141.5 58.5T920-240q0 83-58.5 141.5T720-40Z"/></svg>
+            <span>In Progress</span></a>
+           </div> 
+
+           <div class="">
+            <a href="../../pages/admin_dashboard/completedpage.html" class="dashboard"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#BB3529"><path d="M160-120q-33 0-56.5-23.5T80-200v-560q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v560q0 33-23.5 56.5T800-120H160Zm0-80h640v-560H160v560Zm40-80h200v-80H200v80Zm382-80 198-198-57-57-141 142-57-57-56 57 113 113Zm-382-80h200v-80H200v80Zm0-160h200v-80H200v80Zm-40 400v-560 560Z"/></svg>
+            <span>Completed</span></a>
+             
+           </div>
+
+           <div class="divider"></div>
+           
+           <div class="">
+            <a href="../../pages/admin_dashboard/allrequest.html" class="dashboard"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#BB3529"><path d="M160-240v-480 480Zm0 80q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h240l80 80h320q33 0 56.5 23.5T880-640v132q-19-8-39.5-10.5t-40.5.5v-122H447l-80-80H160v480h324l-4 4v76H160Zm400 80v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q8 9 12.5 20t4.5 22q0 11-4 22.5T903-300L683-80H560Zm300-263-37-37 37 37ZM620-140h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z"/></svg>
+            <span>Manage Requests</span></a>
+           </div> 
+
+           <div class="">
+            <a href="../../pages/admin_dashboard/form.html" class="dashboard"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#BB3529"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+              <span>Request Form</span></a>
+           </div>
+
+           <div class="logout">
+            <a href="../../pages/auth/logout.html" class="dashboard"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path stroke="#BB3529" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M17.44 14.62L20 12.06 17.44 9.5M9.76 12.06h10.17M11.76 20c-4.42 0-8-3-8-8s3.58-8 8-8"></path></svg>
+            <span>Logout</span></a>
+           </div> 
+        </div>
+
+        <div class="content">
+          <div class="header-container">
+            <h1 class="header-title">Pending Requests</h1>
+            <div class="filter-and-button">
+              <div class="filter">
+                <label for="filter" class="filter-label">Filter by:</label>
+                <select id="filter" class="filter-select">
+                  <option value="all">All</option>
+                  <option value="pending">Date</option>
+                  <option value="approved">Priority</option>
+                  <option value="rejected">Client</option>
+                </select>
+              </div>
+              <button class="create-request-btn" id="refreshButton"><a href="../../pages/admin_dashboard/pendingpage.html">Refresh</a></button>
+            </div>
+         </div>
+          
+         <div class="table-container">
+          <table>
+              <thead>
+                  <tr>
+                      <th>S/N</th>
+                      <th>Project Name</th>
+                      <th>Company Name</th>
+                      <th>Date Submitted</th>
+                      <th>Priority</th>
+                      <!-- <th>Status</th> -->
+                      <th>Actions</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr class="line">
+                      <td>1</td>
+                      <td>Website Redesign</td>
+                      <td>Nova Solutions Inc.</td>
+                      <td>2024-11-18</td>
+                      <td>High</td>
+                      <!-- <td><button class="status pending">Pending</button></td> -->
+                      <td>
+
+                          <div class="action-buttons">
+                              <button class="btn view-btn" onclick="openModal('App Development', 'The client requires a complete redesign of their company website to improve user experience and align it with their new branding guidelines. Specific requirements include responsive design, integration with a CMS, and enhanced SEO.', 'BlueCrest Enterprises', 'John Doe', 'john.doe@example.com', 'IT Department', '2 Baale Str Odogunyan Ikorodu Lagos', 'High', 'Product Development', '2024-12-01', 'Pending → Approved')">
+                                View Details
+                              </button>
+                              <!-- <button class="btn approve-btn" onclick="handleAction(this, 'approved')">
+                                Approve
+                              </button> -->
+                              <button class="btn reject-btn" onclick="handleAction(this, 'rejected')">
+                                Go to All Requests
+                              </button>
+                              <!-- <button class="btn review-btn" onclick="handleAction(this, 'reviewed')" >
+                                Mark as Reviewed
+                              </button> -->
+                            </div>
+                      </td>
+
+                  </tr>
+                  <tr class="line">
+                      <td>2</td>
+                      <td>App Development</td>
+                      <td>BrightPath Consulting</td>
+                      <td>2024-11-19</td>
+                      <td>Medium</td>
+                      <!-- <td><button class="status in-progress">In Progress</button></td> -->
+                      <td>
+
+                          
+                          <div class="action-buttons">
+                              <button class="btn view-btn" onclick="openModal('Website Redesign', 'The client requires a complete redesign of their company website to improve user experience and align it with their new branding guidelines. Specific requirements include responsive design, integration with a CMS, and enhanced SEO.', 'BrightPath Consulting', 'John Doe', 'john.doe@example.com', 'IT Department', '2 Baale Str Odogunyan Ikorodu Lagos', 'High', 'Product Development', '2024-12-01', 'Pending → Approved')">
+                                View Details
+                              </button>
+
+                              <!-- Modal -->
+                              <div id="request-modal" class="modal">
+                                <div class="modal-content">
+                                  <!-- Request Title -->
+                                  <div class="modal-header" id="modal-title">Request Title</div>
+                                  <div class="modal-body">
+                                    <p><strong>Goals for Project: </strong> <span id="modal-description"></span></p>
+                                    <p><strong>Company Name:</strong> <span id="modal-company"></span></p>
+                                    <p><strong>Requester Name:</strong> <span id="modal-requester"></span></p>
+                                    <p><strong>Requester's Department:</strong> <span id="modal-department"></span></p>
+                                    <p><strong>Company Contact:</strong> <span id="modal-contact"></span></p>
+                                    <p><strong>Company Address:</strong> <span id="modal-address"></span></p>
+                                    <p><strong>Urgency of Need:</strong> <span id="modal-priority"></span></p>
+                                    <p><strong>Project Category:</strong> <span id="modal-category"></span></p>
+                                    <p><strong>Submission Date:</strong> <span id="modal-date"></span></p>
+                                    <p><strong>Status History:</strong> <span id="modal-status"></span></p>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button class="close-btn" onclick="closeModal()">Close</button>
+                                  </div>
+                                </div>
+                              </div>
+
+
+                              <!-- <button class="btn approve-btn" onclick="handleAction(this, 'approved')">
+                                Approve
+                              </button> -->
+                              <button class="btn reject-btn" onclick="handleAction(this, 'rejected')">
+                                Go to All Requests
+                              </button>
+                              <!-- <button class="btn review-btn" onclick="handleAction(this, 'reviewed')" >
+                                Mark as Reviewed
+                              </button> -->
+                            </div>
+
+                      </td>
+                  </tr>
+                  <tr class="line">
+                      <td>3</td>
+                      <td>API Integration</td>
+                      <td>BlueCrest Enterprises</td>
+                      <td>2024-11-20</td>
+                      <td>Low</td>
+                      <!-- <td><button class="status completed">Completed</button></td> -->
+                      <td>
+
+                          
+                          <div class="action-buttons">
+                              <button class="btn view-btn"  onclick="openModal('App Development', 'The client requires a complete redesign of their company website to improve user experience and align it with their new branding guidelines. Specific requirements include responsive design, integration with a CMS, and enhanced SEO.', 'BlueCrest Enterprises', 'John Doe', 'john.doe@example.com', 'IT Department', '2 Baale Str Odogunyan Ikorodu Lagos', 'High', 'Product Development', '2024-12-01', 'Pending → Approved')">
+                                View Details
+                              </button>
+                              <!-- <button class="btn approve-btn" onclick="handleAction(this, 'approved')" >
+                                Approve
+                              </button> -->
+                              <button class="btn reject-btn" onclick="handleAction(this, 'rejected')">
+                                Go to All Requests
+                              </button>
+                              <!-- <button class="btn review-btn" onclick="handleAction(this, 'reviewed')" >
+                                Mark as Reviewed
+                              </button> -->
+                            </div>
+
+                      </td>
+                  </tr>
+                  <tr class="line">
+                      <td>4</td>
+                      <td>App Development</td>
+                      <td>Nova Solutions Inc.</td>
+                      <td>2024-11-19</td>
+                      <td>High</td>
+                      <!-- <td><button class="status pending">Pending</button></td> -->
+                      <td>
+
+                          
+                          <div class="action-buttons">
+                              <button class="btn view-btn"  onclick="openModal('App Development', 'The client requires a complete redesign of their company website to improve user experience and align it with their new branding guidelines. Specific requirements include responsive design, integration with a CMS, and enhanced SEO.', 'BlueCrest Enterprises', 'John Doe', 'john.doe@example.com', 'IT Department', '2 Baale Str Odogunyan Ikorodu Lagos', 'High', 'Product Development', '2024-12-01', 'Pending → Approved')">
+                                View Details
+                              </button>
+                              <!-- <button class="btn approve-btn" onclick="handleAction(this, 'approved')">
+                                Approve
+                              </button> -->
+                              <button class="btn reject-btn" onclick="handleAction(this, 'rejected')">
+                                Go to All Requests
+                              </button>
+                              <!-- <button class="btn review-btn" onclick="handleAction(this, 'reviewed')" >
+                                Mark as Reviewed
+                              </button> -->
+                            </div>
+                        
+                      </td>
+                  </tr>
+                  <tr class="line">
+                      <td>5</td>
+                      <td>App Development</td>
+                      <td>BlueCrest Enterprises</td>
+                      <td>2024-11-19</td>
+                      <td>Medium</td>
+                      <!-- <td><button class="status in-progress">In Progress</button></td> -->
+                      <td>
+
+                          
+                          <div class="action-buttons">
+                              <button class="btn view-btn" onclick="openModal('App Development', 'The client requires a complete redesign of their company website to improve user experience and align it with their new branding guidelines. Specific requirements include responsive design, integration with a CMS, and enhanced SEO.', 'BlueCrest Enterprises', 'John Doe', 'john.doe@example.com', 'IT Department', '2 Baale Str Odogunyan Ikorodu Lagos', 'High', 'Product Development', '2024-12-01', 'Pending → Approved')">
+                                View Details
+                              </button>
+                              <!-- <button class="btn approve-btn" onclick="handleAction(this, 'approved')">
+                                Approve
+                              </button> -->
+                              <button class="btn reject-btn" onclick="handleAction(this, 'rejected')">
+                                Go to All Requests
+                              </button>
+                              <!-- <button class="btn review-btn" onclick="handleAction(this, 'reviewed')" >
+                                Mark as Reviewed
+                              </button> -->
+                            </div>
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+
+
+          <div class="pagination">
+            <a href="#" class="prev">Previous</a>
+            <a href="#" class="page active">1</a>
+            <a href="#" class="page">2</a>
+            <a href="#" class="page">3</a>
+            <a href="#" class="next">Next</a>
+        </div>
+
+        </div>
+  </div> 
+  
+  <script src="../../js/pendingpage.js"></script>
+</body>
+</html>
